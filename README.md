@@ -81,6 +81,9 @@ $ php artisan key:generate
 # lalu jangan lupa untuk mengganti variable DB_DATABASE di file .env yang di folder project
 $ php artisan migrate
 
+# Gunakan perintah berikut untuk menjalankan DatabaseSeeder tersimpan ke dalam database
+$ php artisan db:seed
+
 # Lalu jalankan aplikasi kalian dengan command dibawah
 $ php artisan serve
 
